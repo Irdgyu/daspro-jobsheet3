@@ -14,8 +14,10 @@ public class TagihanListrik06 {
         tagihanListrik = penggunaankWh * harga;
         cekPenggunaan = penggunaankWh > limitkWh;
 
-        System.out.println();
-
+        System.out.println("Jumlah tagihan listrik anda sebesar Rp. " + tagihanListrik);
+        System.out.println("Jumlah penggunaan listrik anda sebesar: " + penggunaankWh);
+        System.out.println("Jumlah penggunaan listrik anda telah telah melebihi 500kWh: " + cekPenggunaan);
+        
     }
     
 }
