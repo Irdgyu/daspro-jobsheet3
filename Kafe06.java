@@ -22,7 +22,7 @@ public class Kafe06 {
         totalHarga = (jmlKopi * hargaKopi) + (jmlTeh * hargaTeh) + (jmlRoti * hargaRoti);
         nominalBayar = totalHarga - (diskon * totalHarga);
 
-        System.err.println("Keanggotaan pelanggan " + keanggotaan);
+        System.out.println("Keanggotaan pelanggan " + keanggotaan);
         System.out.println("Item pembelian " + jmlKopi + " kopi, " + jmlTeh + " teh, " + jmlRoti + " roti");
         System.out.println("Nominal bayar RP " + nominalBayar);
     }
